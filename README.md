@@ -8,13 +8,13 @@ Once you have Node.js installed, then [install Yeoman](https://yeoman.io).
 npm install -g yo
 ```
 
-Now you can install generator-tf-init.
+Now you can install generator-cf-init.
 
 ```shell
-npm install ggiallo28/terraform-generator#master
+npm install -g ggiallo28/generator-cloudformation#master
 ```
 
-**Note**: You can also clone the project from github, and then use `npm link` in the project's root directory. The link will make it so that the terraform project generator will act like you installed it using `npm install -g generator-tf-init`.
+**Note**: You can also clone the project from github, and then use `npm link` in the project's root directory. The link will make it so that the terraform project generator will act like you installed it using `npm install -g ggiallo28/generator-cloudformation#master`.
 
 ```shell
 npm link
@@ -27,9 +27,5 @@ Generate your new project using the yeoman command:
 ```shell
 mkdir -p ~/my-projects/my-cool-project
 cd ~/my-projects/my-cool-project
-yo tf-init
+yo cf-init
 ```
-
-# Details
-
-Please find more detail about this project [here](https://github.com/leewallen/generator-tf-proj)
