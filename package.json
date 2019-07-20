@@ -1,0 +1,31 @@
+{
+  "name": "generator-tf-init",
+  "version": "0.1.11",
+  "description": "Initialize terraform project",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "terraform",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "generator-tf-init": "github:ggiallo28/terraform-generator#master",
+    "yeoman-generator": "^4.0.1",
+    "yosay": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggiallo28/terraform-generator"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggiallo28/terraform-generator"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
