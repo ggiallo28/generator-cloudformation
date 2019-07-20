@@ -1,5 +1,5 @@
 {
-  "name": "generator-tf-init",
+  "name": "generator-cf-init",
   "version": "0.1.11",
   "description": "Initialize terraform project",
   "files": [
@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "chalk": "^2.1.0",
-    "generator-tf-init": "github:ggiallo28/terraform-generator#master",
+    "generator-cf-init": "github:ggiallo28/terraform-generator#master",
     "yeoman-generator": "^4.0.1",
     "yosay": "^2.0.1"
   },
