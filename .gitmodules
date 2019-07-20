@@ -1,0 +1,4 @@
+[submodule "generators/app/templates/cloudformation/aws-cloudformation-templates"]
+	path = generators/app/templates/cloudformation/aws-cloudformation-templates
+	url = https://github.com/awslabs/aws-cloudformation-templates.git
+	branch = master
